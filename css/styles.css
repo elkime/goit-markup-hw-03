@@ -2,6 +2,8 @@
 
 .fondo{
     background: #2F303A; 
+    padding:200px 0;
+    text-align: center;
 }
 .title{
     font-family: 'Roboto';
@@ -73,8 +75,7 @@ h3{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    height: 80px;
-    
+        
 }
 /* hay que tener una clase container para cada grupo de elementos y los hijos si hay dos ul hay que dar o una clase
 o un identificador para poder establecer propiedades flex a cada elemento y asi distribuirlo a lo ancho y alto de cada box o seccion */
@@ -101,7 +102,7 @@ o un identificador para poder establecer propiedades flex a cada elemento y asi 
     padding:0;
     margin: 0;
     align-items: center;
-
+    padding: 30px 0;
 } 
 
 /* --------------------Encabezado web portfolio, web Principal---------------*/
@@ -242,7 +243,7 @@ span { color: #212121;
 
     color: #FFFFFF;
     
-    padding: 10px 32px 10px 32px;
+    padding: 6px 24px 6px 24px;
 
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -387,6 +388,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
+    margin:0
     }
         
 
