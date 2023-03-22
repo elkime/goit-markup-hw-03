@@ -350,6 +350,7 @@ span { color: #212121;
     letter-spacing: 0.03em;
     
     color: #757575;
+    margin: 0;
 }
 /*direccion para principal and portfolio*/
 .address{
@@ -373,7 +374,7 @@ span { color: #212121;
     
     left: 0px;
     top: 1628px;
-    padding: 60px 0;
+    padding: 60px 0px 60px 215px;
     line-height: 2em;
 
 background: #2F303A;
@@ -474,7 +475,7 @@ header {
   /*centrado Y ALINEACION  de section 2 PRODUCTOS*/
 
   .section-products {
-    padding: 94px 90px 0px 90px ;
+    padding: 94px 10px 0px 10px ;
     
     
 }
@@ -499,11 +500,15 @@ header {
 
 .horizontal-ul {
     display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .box-products {
-    width: 300px;
-    margin-left: 32px;
+    /*width: 300px;
+    margin-left: 32px;*/
+    margin: 0 20px;
     
 }
 
@@ -635,6 +640,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 
+  
 
 
 
